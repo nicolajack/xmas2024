@@ -52,15 +52,10 @@ img {
 }
 
 .topnav a:hover {
-    background-color: #b9657c;
+    background-color: #e89494;
 }
 
 
 .topnav a.active {
     background-color: #e45454;
-}
-
-
-.topnav a.active {
-  background-color: #e45454;
 }
