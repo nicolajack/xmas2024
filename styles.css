@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #de9596;
-    color: #385c39;
+    background-color: #f4e9d8;
+    color: #b9657c;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 h1 {
     color: #609b72;
-    margin-top: 200px;
+    margin-top: 50px;
     font-size: 3em;
 }
 
@@ -21,7 +21,6 @@ p {
 a {
     font-family: Arial, sans-serif;
     color: #609b72;
-    margin-top: 50px;
     font-size: 1.7em;
 }
 
@@ -29,27 +28,36 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30%;
+    padding-top: 50px;
+    }
+
 
 /* for top nav */
 .topnav {
-  background-color: #609b72;
-  overflow: hidden;
+    background-color: #609b72;
+    overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #c8e4d1;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    color: #c8e4d1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     transition: background-color 0.3s ease;
 }
 
 .topnav a:hover {
-  background-color: #b9657c;
+    background-color: #b9657c;
+}
+
+
+.topnav a.active {
+    background-color: #e45454;
 }
 
 
