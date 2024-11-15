@@ -23,20 +23,6 @@ body::after {
 }
 */
 
-
-@keyframes grain {
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(-1px, -1px); }
-    50% { transform: translate(-1px, -1px); }
-    75% { transform: translate(-1px, -1px); }
-    100% { transform: translate(0, 0); }
-}
-
-@font-face {
-    font-family: "timesCondensed";
-    src: url('fonts/TimesNewRomanMTCondensedRegular.otf') format('opentype');
-    }
-
 .textcontainer {
     position: relative;
     margin-top: 400px;
@@ -64,17 +50,6 @@ a {
     color: #0e2f18;
     font-size: 1.7em;
 }
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 30%;
-    padding-top: 50px;
-    }
-
 
 /* for top nav */
 .topnav {
