@@ -23,6 +23,20 @@ body::after {
 }
 */
 
+
+@keyframes grain {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-1px, -1px); }
+    50% { transform: translate(-1px, -1px); }
+    75% { transform: translate(-1px, -1px); }
+    100% { transform: translate(0, 0); }
+}
+
+@font-face {
+    font-family: "timesCondensed";
+    src: url('fonts/TimesNewRomanMTCondensedRegular.otf') format('opentype');
+    }
+
 .textcontainer {
     position: relative;
     margin-top: 400px;
@@ -51,6 +65,7 @@ a {
     font-size: 1.7em;
 }
 
+
 /* for top nav */
 .topnav {
     background-color: #0e2f18;
@@ -78,6 +93,10 @@ a {
 
 .biggift {
     background-color: #642323;
+}
+
+.clothes {
+    background-color: #0e2f18;
 }
 
 .container {
@@ -128,7 +147,8 @@ a {
 
 .textbox {
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 300px;
-    margin-right: 300px
+    margin-right: 300px;
+    margin-bottom: 50px;
 }
